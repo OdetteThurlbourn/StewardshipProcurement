@@ -79,6 +79,13 @@
     display: flex;
 }
 
+.m-btn {
+    border: 2px solid greenyellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
 
 /* Footer style rules */
 footer {
