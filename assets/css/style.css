@@ -73,3 +73,11 @@
     text-decoration: none;
     color: green;
 }
+
+.socials a i{
+    font-size: 1.1rem;
+}
+
+.socials a:hover i{
+    color: orange;
+}
