@@ -33,6 +33,7 @@
     padding-right: 1rem;
 }
 
+/* Image slideshow style rules */
 .section {
     margin: 0;
     padding: 0;
@@ -42,9 +43,24 @@
     align-items: center;
 }
 
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slide {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+
 /* Footer style rules */
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
