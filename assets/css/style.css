@@ -57,6 +57,28 @@
     display: flex;
 }
 
+.slide input{
+    display: none;
+}
+
+.st {
+    width: 20%;
+    transition: 2s;
+}
+
+.st img{
+    width: 800px;
+    height: 500px;
+}
+
+.nav-m {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+}
+
 
 /* Footer style rules */
 footer {
