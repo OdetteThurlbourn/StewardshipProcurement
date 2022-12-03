@@ -37,7 +37,7 @@
 .section {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +131,6 @@
     justify-content: center;
 }
 
-
 #radio1:checked ~ .nav-auto .a-b1 {
     background-color: darkmagenta;
 }
@@ -147,8 +146,8 @@
 
 /* Footer style rules */
 footer {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: -300px;
     left: 0;
     right: 0;
     background: red;
