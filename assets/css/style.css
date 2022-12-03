@@ -87,6 +87,30 @@
     transition: 1s;
 }
 
+.m-btn:not(:last-child) {
+    margin-right: 30px;
+}
+
+.m-btn:hover {
+    background-color: purple;
+}
+
+#radio:checked ~.first {
+    margin-left: 0;
+}
+
+#radio:checked ~.first {
+    margin-left: -20%;
+}
+
+#radio:checked ~.first {
+    margin-left: -40%;
+}
+
+#radio:checked ~.first {
+    margin-left: -60%;
+}
+
 /* Footer style rules */
 footer {
     position: fixed;
