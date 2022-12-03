@@ -29,6 +29,7 @@ h1 {
 }
 
 p {
+    position: relative;
     font-size: large;
     text-align: justify;
     font-weight: bold;
