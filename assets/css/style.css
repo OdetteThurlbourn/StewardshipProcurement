@@ -24,6 +24,10 @@
     padding-right: 1rem;
 }
 
+h1 {
+    text-align: center;
+}
+
 .paragraph {
     font-family: Raleway, sans-serif;
     max-width: 1000px;
