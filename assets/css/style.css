@@ -10,7 +10,7 @@
     /* background-image: url('../images/hero-image.jpg'); */
     background-size: cover;
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 75px;
 }
 
 .hero {
@@ -48,7 +48,7 @@ p {
 .section {
     margin: 0;
     padding: 0;
-    height: 70vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
