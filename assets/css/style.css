@@ -28,11 +28,18 @@ h1 {
     text-align: center;
 }
 
+p {
+    font-size: large;
+    text-align: justify;
+    font-weight: bold;
+}
+
 .paragraph {
     font-family: Raleway, sans-serif;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -175,6 +182,11 @@ footer {
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
+}
+
+h2 {
+    text-align: center;
+    font-size: small;
 }
 
 .socials {
