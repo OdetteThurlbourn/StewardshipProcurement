@@ -111,6 +111,21 @@
     margin-left: -60%;
 }
 
+.nav-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div {
+    border: 2px solid balck;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
 /* Footer style rules */
 footer {
     position: fixed;
