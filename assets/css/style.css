@@ -240,6 +240,17 @@ h2::after {
     background-color: #B74803;
 }
 
+
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
 /* Footer style rules */
 footer {
     position: absolute;
