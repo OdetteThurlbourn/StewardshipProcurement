@@ -34,6 +34,7 @@ p {
     font-size: large;
     text-align: justify;
     font-weight: bold;
+    line-height: 35px;
 }
 
 .paragraph {
@@ -106,7 +107,7 @@ p {
 }
 
 .m-btn:hover {
-    background-color: #27160d;
+    background-color: #B74803;
 }
 
 #radio1:checked ~.first {
@@ -146,16 +147,16 @@ p {
 }
 
 #radio1:checked ~ .nav-auto .a-b1 {
-    background-color: darkmagenta;
+    background-color: #B74803;
 }
 #radio2:checked ~ .nav-auto .a-b2 {
-    background-color: darkmagenta;
+    background-color: #B74803;
 }
 #radio3:checked ~ .nav-auto .a-b3 {
-    background-color: darkmagenta;
+    background-color: #B74803;
 }
 #radio4:checked ~ .nav-auto .a-b4 {
-    background-color: darkmagenta;
+    background-color: #B74803;
 }
 
 /* Footer style rules */
