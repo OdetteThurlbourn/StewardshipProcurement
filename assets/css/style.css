@@ -251,6 +251,30 @@ h2::after {
     margin-bottom: 22px;
     transition: .3s;
 }
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus {
+    background-color: #fff;
+    border: 2px solid rgba(30, 85, 250, 0.47);
+}
+
+.area {
+    min-height: 150px;
+}
+
+.button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: blue;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .3s;
+}
 /* Footer style rules */
 footer {
     position: absolute;
