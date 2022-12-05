@@ -209,6 +209,7 @@ p {
     align-items: center;
     text-align: center;
     background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
 }
 
 .left {
@@ -339,4 +340,17 @@ h3 {
 
 .socials a:hover i{
     color: orange;
+}
+
+
+/* MEDIA QUERIES FOR CONTACT PAGE */
+
+@media screen and (max-width:880px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .left {
+        height: 200px;
+    }
 }
