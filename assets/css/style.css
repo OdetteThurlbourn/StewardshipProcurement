@@ -199,7 +199,26 @@ p {
     background-size: cover;
     z-index: -1;
     filter: blur(50px);
+}
 
+.contact-container {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.left {
+    height: 100%;
+    background: url(../images/contactPageImage.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.right {
+    padding: 25px 40px;
 }
 
 /* Footer style rules */
