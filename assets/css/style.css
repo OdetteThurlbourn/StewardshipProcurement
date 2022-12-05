@@ -53,6 +53,19 @@ p {
     padding-right: 1rem;
 }
 
+/* Home 'Contact Us' button */
+
+.contact-home-btn {
+    width: 10%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #B74803;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: .3s;
+}
+
 /* Image slideshow style rules */
 .section {
     margin: 0;
