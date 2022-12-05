@@ -4,18 +4,23 @@
     padding: 0;
 }
 
+/* HOMEPAGE STYLE RULES*/
+
+/* Heading background section*/
 .hero {
     background-color: #27160d;
     color: #fff;
-    /* background-image: url('../images/hero-image.jpg'); */
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 75px;
 }
 
+
 .hero {
     font-size: 1.5rem;
 }
+
+/* Heading */
 .container {
     max-width: 1000px;
     margin-left: auto;
@@ -29,6 +34,7 @@ h1 {
     padding
 }
 
+/* Homepage paragraph */
 p {
     position: relative;
     font-size: large;
@@ -80,12 +86,14 @@ p {
     transition: 2s;
 }
 
+/* Slideshow inages */
 .st img{
     width: 800px;
     height: 500px;
     padding: 50px 2px;
 }
 
+/* Slideshow button elements*/
 .nav-m {
     position: absolute;
     width: 800px;
@@ -188,11 +196,13 @@ footer {
     font-size: 14px;
 }
 
+/* 'Find us on' footer heading */
 h2 {
     text-align: center;
     font-size: small;
 }
 
+/* Social media taga */
 .socials {
     list-style: none;
     display: flex;
