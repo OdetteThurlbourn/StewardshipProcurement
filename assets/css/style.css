@@ -358,7 +358,7 @@ h3 {
 }
 
 
-/* MEDIA QUERIES FOR CONTACT PAGE */
+/* MEDIA QUERIES */
 
 @media screen and (max-width:880px) {
     .contact-container {
@@ -368,4 +368,19 @@ h3 {
     .left {
         height: 200px;
     }
+
+}
+
+@media screen and (max-width:766px) {
+    .hero {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:510px) {
+    .hero {
+        width: 100%;
+    }
+
 }
