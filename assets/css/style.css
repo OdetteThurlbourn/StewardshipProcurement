@@ -167,6 +167,41 @@ p {
     background-color: #B74803;
 }
 
+/* CONTACT PAGE STYLE RULES */
+
+.contact-page {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.form:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/contactPageImage.jpg) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(50px);
+
+}
+
 /* Footer style rules */
 footer {
     position: absolute;
@@ -174,7 +209,7 @@ footer {
     left: 0;
     right: 0;
     background: #B74803;
-    height: 100px;
+    height: 50px;
     width: 100vw;
     font-family: 'Open Sans';
     padding-top: 40px;
@@ -208,7 +243,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 0 0 3rem 0;
 }
 
 .socials li{
