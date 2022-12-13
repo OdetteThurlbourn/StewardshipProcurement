@@ -11,9 +11,9 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     overflow: hidden;
-    background-color: aqua;
+    background-color: #B74803;
 }
 
 li {
@@ -21,15 +21,16 @@ li {
 }
 
 li a {
+    font-family: Raleway, sans-serif;
     display: block;
-    color: red;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: yellow;
+    background-color: #772f02;
 }
 
 /* Heading background section*/
@@ -83,7 +84,8 @@ p {
 
 .contact-home-btn {
     width: 10%;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
+    font-family: Raleway, sans-serif;
     font-size: 1.1rem;
     background-color: #B74803;
     cursor: pointer;
@@ -309,6 +311,7 @@ h2::after {
     width: 100%;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
+    color: black;
     background-color: #B74803;
     cursor: pointer;
     outline: none;
