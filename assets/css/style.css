@@ -323,6 +323,45 @@ h2::after {
     background-color: #772f02;
 }
 
+/* CONTACT US PAGE TWO */
+
+#contact-body {
+    background: #55ffe5;
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+}
+
+.container-box {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box {
+    background: #fff;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+
+h4 {
+    margin-bottom: 10px;
+
+}
+
+.container-box p{
+    margin-bottom: 40px;
+}
+
 
 /* Footer style rules */
 footer {
