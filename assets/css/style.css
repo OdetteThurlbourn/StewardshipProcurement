@@ -354,7 +354,7 @@ h2::after {
 }
 
 h4 {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 
 }
 
@@ -373,6 +373,32 @@ h4 {
 }
 input{
     width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
 }
 
 /* Footer style rules */
