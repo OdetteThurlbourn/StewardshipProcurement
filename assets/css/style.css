@@ -390,7 +390,7 @@ label{
     display: block;
     color: #1c00b5;
 }
-button{
+.btn-contact-page{
     background: #1c00b5;
     width: 100px;
     border: none;
@@ -399,6 +399,7 @@ button{
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
 
 /* Footer style rules */
