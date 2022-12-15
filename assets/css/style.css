@@ -90,7 +90,8 @@ p {
     color: #fff;
     height: 35px;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     box-shadow: 0px 5px 15px 0px rgba(39, 22, 13, 1);
     cursor: pointer;
 }
@@ -212,6 +213,11 @@ p {
 
 
 /* CONTACT US Style Rules */
+
+#social-contact{
+    color: #B74803;
+    text-decoration: none;
+}
 
 #contact-body {
     background: #fff;
@@ -377,27 +383,4 @@ h3 {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:880px) {
-    .contact-container {
-        grid-template-columns: 1fr;
-    }
 
-    .left {
-        height: 200px;
-    }
-
-}
-
-@media screen and (max-width:766px) {
-    .hero {
-        width: 100%;
-    }
-
-}
-
-@media screen and (max-width:510px) {
-    .hero {
-        width: 100%;
-    }
-
-}
