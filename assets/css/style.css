@@ -326,7 +326,7 @@ h2::after {
 /* CONTACT US PAGE TWO */
 
 #contact-body {
-    background: #55ffe5;
+    background: #fff;
     font-size: 20px;
     font-family: Raleway, sans-serif;
 }
@@ -337,7 +337,7 @@ h2::after {
 }
 
 .contact-box {
-    background: #fff;
+    background: #B74803;
     display: flex;
 }
 
@@ -349,7 +349,7 @@ h2::after {
 .contact-right {
     flex-basis: 40%;
     padding: 40px;
-    background: #1c00b5;
+    background: #27160d;
     color: #fff;
 }
 
@@ -387,10 +387,10 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: #1c00b5;
+    color: #fff;
 }
 .btn-contact-page{
-    background: #1c00b5;
+    background: #27160d;
     width: 100px;
     border: none;
     outline: none;
@@ -398,11 +398,11 @@ label{
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+    box-shadow: 0px 5px 15px 0px rgba(39, 22, 13, 1);
 }
 
 .contact-left h4{
-    color: #1c00b5;
+    color: #27160d;
     font-weight: bolder;
     margin-bottom: 30px;
 }
@@ -412,6 +412,13 @@ label{
     margin-bottom: 30px;
 }
 
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
 
 
 /* Footer style rules */
