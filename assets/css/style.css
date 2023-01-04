@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prata&family=Raleway&family=Roboto+Mono:wght@200&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+*
+
+body{
+    border: 2px solid;
 }
 
 /* HOMEPAGE STYLE RULES*/
@@ -35,16 +36,10 @@ li a:hover {
 
 /* Heading background section*/
 .hero {
-    background-color: #27160d;
-    color: #fff;
-    background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 75px;
-}
-
-
-.hero {
     font-size: 1.5rem;
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 1px;
 }
 
 /* Heading */
@@ -88,10 +83,10 @@ p {
     border: none;
     outline: none;
     color: #fff;
-    height: 35px;
+    height: 25px;
     border-radius: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     box-shadow: 0px 5px 15px 0px rgba(39, 22, 13, 1);
     cursor: pointer;
 }
@@ -105,7 +100,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-
 
 .slider {
     width: 800px;
@@ -377,10 +371,12 @@ h3 {
     color: black;
 }
 
-/*Contact Page Socila Media Tags*/
-
-
-
 /* MEDIA QUERIES */
+
+@media (100px <= width <= 300px) {
+    .div.hero {
+
+    }
+}
 
 
