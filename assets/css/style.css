@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Prata&family=Raleway&family=Roboto+Mono:wght@200&display=swap');
 *
-
-body{
-    border: 2px solid;
-}
-
 /* HOMEPAGE STYLE RULES*/
 
 /* NavBar style rules */
@@ -373,10 +368,58 @@ h3 {
 
 /* MEDIA QUERIES */
 
-@media (100px <= width <= 300px) {
-    .div.hero {
-
+Media query for screens smaller than 600px
+@media only screen and (max-width: 600px) {
+    /* Style adjustments for small screens */
+    ul {
+      background-color: #B74803;
     }
-}
+    li a {
+      font-size: 0.8rem;
+      padding: 10px 12px;
+    }
+    /* Make the contact form take up the full width of the screen */
+    .contact-box {
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .contact-left, .contact-right {
+      width: 100%;
+    }
+    /* Hide the social contact links */
+    #social-contact {
+      display: none;
+    }
+  }
+  
+  /* Media query for screens bigger than 600px */
+  @media only screen and (min-width: 600px) {
+    /* Style adjustments for larger screens */
+    ul {
+      background-color: #B74803;
+    }
+    li a {
+      font-size: 1rem;
+      padding: 14px 16px;
+    }
+    /* Make the contact form take up half of the screen */
+    .contact-box {
+      flex-wrap: nowrap;
+      align-items: flex-start;
+    }
+    .contact-left, .contact-right {
+      width: 50%;
+    }
+    /* Show the social contact links */
+    #social-contact {
+      display: table-row;
+    }
+  }
+  
 
+  :root {
+    --breakpoint-tablet-landscape: 768px;
+    --breakpoint-tablet-portrait: 1024px;
+    --breakpoint-desktop: 1200px;
+}
 
